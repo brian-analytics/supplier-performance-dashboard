@@ -45,7 +45,7 @@ To design a data-driven supplier scorecard that enables supply chain teams to:
 - High-compliance vendors tended to deliver fewer defective items
 **File Structure**
 data/
-├── Cleaned_Procurement_KPI_Dataset.xlsx
+├── Cleaned_Procurement_KPI_Dataset.xlsx https://github.com/brian-analytics/supplier-performance-dashboard/blob/main/Cleaned_Procurement_KPI_Dataset.xlsx
 
 visuals/
 ├── dashboard-screenshot.png (to be added)
