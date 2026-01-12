@@ -1,66 +1,58 @@
-**Supplier Performance Dashboard – Procurement KPI Analytics**
-This project analyzes procurement operations using real-world-inspired data to evaluate supplier performance and operational efficiency. Built using Excel and Power BI, it applies key procurement KPIs such as cost savings, delivery timeliness, and defect rates to uncover actionable insights.
+        Supplier Performance Dashboard -Procurement KPI Analytics
+Project Overview
+This project analyzes procurement operations using real-world-inspired purchase order data to evaluate supplier performance and operational efficiency. Using Excel and Power BI, the project applies key procurement KPIs-such as cost savings, on-time delivery, defect rates, and compliance-to generate actionable insights that support data-driven supplier management decisions.
+The outcome is an interactive supplier performance dashboard designed to help procurement teams monitor vendor reliability, identify risks, and uncover cost-saving opportunities.
+Business Problem
+Procurement teams must balance cost control, delivery reliability, and product quality while managing multiple suppliers. Poor supplier performance can lead to delayed operations, increased costs, and quality risks.
+This project addresses the question:
+How can procurement teams objectively evaluate supplier performance using data and KPIs to support better sourcing and negotiation decisions?
+Dataset Overview
+•	Source: Kaggle – Procurement KPI Analysis Dataset
+https://www.kaggle.com/datasets/shahriarkabir/procurement-kpi-analysis-dataset
+•	Time Period: 2022–2023
+•	Size: 777 purchase orders
+•	Description: Anonymized, real-world-inspired procurement transaction data
+Key Columns
+•	Supplier
+•	Order_Date, Delivery_Date
+•	Unit_Price, Negotiated_Price, Quantity
+•	Defective_Units
+•	Compliance (Compliant / Non-Compliant)
+•	Order_Status
+KPIs Calculated
+KPI	Description
+On-Time Delivery	Whether delivery occurred on or before the scheduled date
+Delivery Delay (Days)	Difference between order date and delivery date
+Cost Savings	Difference between unit price and negotiated price
+Defect Rate	Percentage of defective or returned units
+Compliance Rate	Percentage of orders marked as compliant
 
-**Project Objective**
-Supplier Performance Dashboard – Procurement KPI Analytics
-
-This project analyzes procurement operations using real-world-inspired data to evaluate supplier performance and operational efficiency. Built using Excel and Power BI, it applies key procurement KPIs such as cost savings, delivery timeliness, and defect rates to uncover actionable insights.
-
-**Project Objective**
-
-To design a data-driven supplier scorecard that enables supply chain teams to:
-- Identify underperforming vendors
-- Visualize trends in delivery delays and compliance
-- Quantify cost savings from negotiations
-- Track defect rates across suppliers and categories
-
-**Dataset Overview**
-
-- Source: Kaggle – Procurement KPI Dataset (anonymized real-world POs) : https://www.kaggle.com/datasets/shahriarkabir/procurement-kpi-analysis-dataset
-- Size: 777 Purchase Orders (2022–2023)
-- Key Columns:
-  - Supplier, Order_Date, Delivery_Date
-  - Unit_Price, Negotiated_Price, Quantity
-  - Defective_Units, Compliance, Order_Status
-
-**KPIs Calculated**
-
-| KPI                  | Description                                      |
-|----------------------|--------------------------------------------------|
-| On-Time Delivery     | Whether delivery was made on or before schedule |
-| Cost Savings         | Difference between unit price and negotiated rate |
-| Defect Rate          | % of units returned or defective                |
-| Compliance Rate      | % of orders marked “Compliant”                  |
-| Delivery Delay (days)| Lag between order and delivery                   |
-
-**Tools Used**
-- Excel – for data cleaning and KPI calculations
-- Power BI – for visual dashboard and drill-down analysis
-- (Power BI dashboard screenshots to be added)
-
-**Key Insights (to be updated)**
-
-- Supplier B shows frequent delays despite low defect rates
-- Office Supplies had the highest cost variance across all categories
-- High-compliance vendors tended to deliver fewer defective items
-**File Structure**
-data/
-├── Cleaned_Procurement_KPI_Dataset.xlsx https://github.com/brian-analytics/supplier-performance-dashboard/blob/main/Cleaned_Procurement_KPI_Dataset.xlsx
-
-visuals/
-├── dashboard-screenshot.png (to be added)
-
-insights/
-├── summary.md (to be added)
-
-README.md
-
-**Next Steps**
-
-- Upload Power BI dashboard visual
-- Write summary insights 
-- Add GitHub Pages 
-
-
-
-
+Dashboard Overview
+The Power BI dashboard enables users to:
+•	Compare supplier performance across delivery, cost, quality, and compliance metrics
+•	Identify underperforming or high-risk vendors
+•	Analyze delivery delays and defect trends
+•	Assess cost savings by supplier and category
+📊 Power BI dashboard visuals will be added once finalized.
+Key Insights
+•	Certain suppliers show strong quality performance but experience frequent delivery delays.
+•	Office Supplies exhibit the highest cost variance, indicating opportunities for improved negotiation.
+•	Higher compliance rates are associated with lower defect levels across suppliers.
+Tools & Skills Demonstrated
+•	Excel – Data cleaning and KPI calculations
+•	Power BI – Data modeling, DAX measures, and dashboard development
+•	Procurement Analytics – Supplier scorecards, KPI tracking, and performance evaluation
+File Structure
+supplier-performance-dashboard/
+│
+├── data/
+│   └── Cleaned_Procurement_KPI_Dataset.xlsx
+│
+├── README.md
+Next Steps
+•	Add Power BI dashboard screenshots
+•	Publish summarized insights
+•	Expand analysis with trend forecasting and supplier recommendations
+Author
+Brian
+Data Analytics | Procurement & Supply Chain Analytics
