@@ -16,7 +16,7 @@ https://www.kaggle.com/datasets/shahriarkabir/procurement-kpi-analysis-dataset
 •	Description: Anonymized, real-world-inspired procurement transaction data
 
                                                   Key Columns
-•	Supplier
+•	Supplier.
 •	Order_Date, Delivery_Date
 •	Unit_Price, Negotiated_Price, Quantity
 •	Defective_Units
