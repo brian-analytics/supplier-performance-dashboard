@@ -1,144 +1,98 @@
 # Supplier Performance Dashboard  
 ### Procurement KPI Analytics with Power BI
 
-**Objective:**  
-Evaluate supplier risk, operational performance, and financial impact using
-procurement KPIs to support data-driven sourcing and supplier management decisions.
-
----
-
-## Project Overview
-
-This project analyzes procurement operations using real-world-inspired purchase
-order data. The goal is to move beyond descriptive reporting and provide **actionable
-insights** that help procurement teams:
-
-- Identify high-risk suppliers
-- Diagnose operational bottlenecks
-- Prioritize suppliers with the greatest financial impact
-- Balance reliability against cost savings
-
-The analysis was implemented in **Power BI**, with calculated KPIs built using **DAX**
-and structured data preparation in **Excel**.
+This project presents a **multi-layered supplier performance analysis** combining operational reliability, risk exposure, and financial impact.  
+The dashboard is designed to support **data-driven procurement decisions** such as supplier prioritization, risk mitigation, and value optimization.
 
 ---
 
 ## Dashboard Structure
 
-The dashboard is organized into **three analytical layers**, each answering a
-different business question.
+The analysis is organized into **three analytical views**, each answering a distinct business question.
 
 ---
 
-## 1. Supplier Overview & Risk–Value Trade-off
+## 1️⃣ Supplier Overview & Risk–Value Trade-off
 
-![Supplier Overview](../screenshots/page1_supplier_overview.png)
+This view evaluates suppliers across two critical dimensions:
 
-**Key question:**  
-> Which suppliers are strategic assets, and which pose operational or financial risk?
+- **Supplier Reliability Score** (composite of delivery, quality, and compliance)
+- **Total Cost Savings** generated per supplier
 
-### Highlights
-- A **Supplier Reliability Score** combines delivery performance, quality, and compliance.
-- A **quadrant scatter plot** maps reliability against total cost savings.
-- Suppliers are segmented into:
-  - Strategic Partners
-  - Value Opportunities
-  - At-Risk Suppliers
-  - Reliable but Low Impact
+Suppliers are classified into **actionable quadrants**:
+- **Strategic Partners** (high reliability, high value)
+- **Value Opportunities** (moderate reliability, high value)
+- **At-Risk Suppliers** (low reliability, high value)
+- **Reliable but Low Impact** (high reliability, low value)
 
-**Outcome:**  
-Procurement leaders can immediately identify which suppliers to strengthen,
-renegotiate, or closely monitor.
+Bubble color represents **Risk Level**, while bubble size reflects **transaction volume**, enabling rapid prioritization.
+
+<img src="../images/supplier-overview.png" width="900">
 
 ---
 
-## 2. Operational Diagnostics
+## 2️⃣ Operational Diagnostics
 
-![Operational Diagnostics](../screenshots/page2_operational_diagnostics.png)
+This section focuses on **root-cause indicators** driving supplier performance:
 
-**Key question:**  
-> Where are operational inefficiencies originating?
+- **On-Time Delivery %**
+- **Average Delivery Delay (Days)**
+- **Defect Rate**
+- **Compliance Rate**
 
-### Metrics Analyzed
-- On-Time Delivery %
-- Average Delivery Delay (Days)
-- Defect Rate
-- Compliance Rate
+These metrics help identify whether reliability issues stem from logistics, quality failures, or process non-compliance.
 
-### Insights
-- Highlights suppliers driving delays or quality issues
-- Reveals trade-offs between speed, quality, and compliance
-- Supports targeted corrective actions rather than broad supplier penalties
-
-**Outcome:**  
-Enables focused operational improvements and supplier performance management.
+<img src="../images/operational-diagnostics.png" width="900">
 
 ---
 
-## 3. Financial Impact & Action Prioritization
+## 3️⃣ Financial Impact & Action Prioritization
 
-![Financial Impact](../screenshots/page3_financial_impact.png)
+This view translates operational performance into **financial consequences**:
 
-**Key question:**  
-> Where should procurement focus to maximize financial returns?
+- Total cost savings by supplier
+- Unit cost savings
+- Reliability vs. value positioning
 
-### Features
-- Total and unit cost savings by supplier
-- Reliability-adjusted financial prioritization
-- Integrated risk indicators alongside savings metrics
+The accompanying table consolidates **risk level, reliability score, cost savings, and defect rates**, enabling procurement teams to:
 
-**Outcome:**  
-Supports smarter sourcing decisions by aligning **cost savings** with
-**supplier reliability**.
+- Prioritize negotiations
+- Flag suppliers for corrective action
+- Protect high-value relationships
+
+<img src="../images/action-prioritization.png" width="900">
 
 ---
 
-## Key KPIs Used
+## Methodology
 
-- Supplier Reliability Score (weighted index)
-- On-Time Delivery %
-- Defect Rate
-- Compliance Score
-- Total Cost Savings
-- Unit Cost Savings
-- Average Delivery Delay (Days)
+Key features of the analytical model include:
+
+- **Weighted Supplier Reliability Index**
+  - Delivery Performance: 40%
+  - Quality Score: 35%
+  - Compliance Score: 25%
+- Dynamic risk classification using DAX
+- Quadrant thresholds locked for analytical consistency
+- Conditional formatting to highlight risk exposure
 
 ---
 
 ## Tools & Technologies
 
-- **Power BI** – data modeling, visualization, and analytics
-- **DAX** – KPI calculations and scoring logic
-- **Excel** – data cleaning and preparation
-- **GitHub Pages** – project documentation and presentation
+- **Power BI** — data modeling, DAX, and visualization
+- **Excel** — data cleaning and preprocessing
+- **GitHub Pages** — documentation and portfolio publishing
 
 ---
 
-## Data Flow
+## Use Cases
 
-- Excel Dataset
-     ↓
-- Power BI (Data Model & DAX Measures)
-     ↓
-- Interactive Dashboard
-     ↓
-- GitHub Pages (Case Study & Documentation)
----
-
-## Repository
-
-📂 **GitHub Repository:**  
-[Supplier Performance Dashboard](https://github.com/brian-analytics/supplier-performance-dashboard)
+- Procurement performance reviews
+- Supplier risk assessment
+- Strategic sourcing decisions
+- Cost optimization initiatives
 
 ---
 
-## Conclusion
-
-This project demonstrates how procurement data can be transformed into a
-decision-support tool that balances **risk, performance, and financial value**.
-The approach mirrors real-world business intelligence workflows used in
-procurement, supply chain, and operations analytics.
-
----
-
-
+📌 *This project demonstrates applied analytics for real-world procurement decision-making, with an emphasis on clarity, interpretability, and actionability.*
