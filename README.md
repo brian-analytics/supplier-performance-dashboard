@@ -33,7 +33,7 @@ Breaks down delivery delays, defects, and compliance issues to uncover performan
 Connects supplier performance to cost savings and highlights where intervention yields the highest return.
 
 👉 Full visual walkthrough available via **GitHub Pages**:  
-**https://brian-analytics.github.io/supplier-performance-dashboard/**
+**https://github.com/brian-analytics/supplier-performance-dashboard/**
 
 ---
 
