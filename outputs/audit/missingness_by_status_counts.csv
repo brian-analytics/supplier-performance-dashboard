@@ -1,0 +1,6 @@
+Order_Status,Both missing,Defect count only,Delivery date only,Neither missing,All
+Cancelled,1,8,7,47,63
+Delivered,12,90,56,402,560
+Partially Delivered,1,12,4,56,73
+Pending,1,11,5,64,81
+All,15,121,72,569,777

@@ -1,0 +1,6 @@
+Supplier,Avg_Days,Defect_Rate_Pct,Compliance_Pct,Potential_Savings,Delivery_Rank,Quality_Rank,Compliance_Rank,Savings_Rank,Weighted_Rank_Score,Overall_Rank
+Alpha_Inc,10.5,2.27,93.6,622431.0,2.0,1.0,2.0,5.0,2.1,1
+Epsilon_Group,10.9,2.97,98.2,788003.0,4.0,2.0,1.0,2.0,2.1,1
+Gamma_Co,10.0,4.96,86.0,698992.0,1.0,3.0,3.0,3.0,2.5999999999999996,3
+Beta_Supplies,11.3,9.36,75.6,830953.0,5.0,4.0,4.0,1.0,3.7499999999999996,4
+Delta_Logistics,10.8,14.31,60.8,698541.0,3.0,5.0,5.0,4.0,4.45,5

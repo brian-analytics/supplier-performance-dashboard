@@ -1,0 +1,6 @@
+Issue,Records_Affected,Decision
+Missing Delivery_Date,87,Retain missing values; investigate before calculating delivery KPIs
+Missing Defective_Units,136,Retain missing values; do not assume zero defects
+Delivered orders missing Delivery_Date,68,Exclude from date-based delivery metrics until resolved
+Cancelled orders with Delivery_Date,55,Flag for investigation; do not change status automatically
+Delivery_Date before Order_Date,1,Flag PO-00101; verify source dates before correction

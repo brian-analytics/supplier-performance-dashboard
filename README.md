@@ -50,20 +50,35 @@ Connects supplier performance to cost savings and highlights where intervention 
 ## 🛠 Tools Used
 
 - **Power BI** (DAX, data modeling, visual analytics)
-- **Microsoft Excel** (data cleaning)
+- **Python / Pandas** (raw data audit, data quality assessment, KPI modeling)
+- **Jupyter Notebooks** (step-by-step reproducible analysis)
+- **Microsoft Excel / CSV** (data storage & exports)
 - **GitHub Pages** (documentation & presentation)
 
 ---
 
 ## 📁 Repository Structure
+```text
+├── data/
+│   └── Raw/archive (2).zip
 ├── docs/
-│ └── index.md # GitHub Pages site
+│   ├── index.md                        # GitHub Pages site
+│   └── data_quality_issue_register.csv # Data quality issue register & decisions
 ├── images/
-│ ├── supplier-overview.png
-│ ├── operational-diagnostics.png
-│ └── action-prioritization.png
+│   ├── supplier-overview.png
+│   ├── operational-diagnostics.png
+│   └── action-prioritization.png
+├── outputs/
+│   ├── audit/                          # Missingness & data validation audits
+│   ├── kpi/                            # KPI summaries, quarterly trends & scorecard
+│   └── procurement_data_cleaned.csv    # Cleaned procurement dataset
+├── 01_raw_data_audit.ipynb             # Data quality audit notebook
+├── 02_kpi_analysis.ipynb               # KPI calculation & scorecard notebook
 ├── Cleaned_Procurement_KPI_Dataset.xlsx
+├── Procurement KPI Analysis Dataset.csv
+├── Supplier Performance Dashboard.pbix  # Power BI dashboard
 └── README.md
+```
 
 ---
 
@@ -71,7 +86,7 @@ Connects supplier performance to cost savings and highlights where intervention 
 
 - The dataset is synthetic but modeled on realistic procurement scenarios.
 - Screenshots represent finalized dashboard views.
-- Power BI `.pbix` file is intentionally excluded.
+- Includes the full Power BI `.pbix` dashboard model and end-to-end Python audit pipelines.
 
 ---
 
